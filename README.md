@@ -68,7 +68,7 @@ The request body should be a JSON object with the following keys:
   "region_northeast": true,
   "region_northwest": false,
   "region_southeast": false,
-  "region_southwest": true
+  "region_southwest": false
 }
 ```
 
@@ -127,7 +127,7 @@ curl -X 'POST' \
   "region_northeast": true,
   "region_northwest": false,
   "region_southeast": false,
-  "region_southwest": true
+  "region_southwest": false
 }'
 ```
 
